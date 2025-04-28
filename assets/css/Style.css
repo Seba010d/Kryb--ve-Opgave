@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+/* #region GLOBAL */
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", serif;
+  background-color: white;
+}
+h1 {
+  font-size: 3rem;
+  font-weight: 900;
+}
+/* #endregion */
+
+/* #region søge felt */
+
+.search-box {
+  background-color: white;
+  padding: 10px 10px;
+  width: 350px;
+}
+
+.search-box i {
+  align-self: flex-start;
+  margin-top: 20px;
+  color: black;
+}
+
+.search-box input {
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 1rem;
+}
+
+/* #endregion */
+
+/* #region HEADER AND NAV */
+.main-header {
+  background-color: #e3e3e3;
+}
+.main-header img {
+  display: block;
+  width: 100%;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  padding-top: 1rem;
+  gap: 2rem;
+}
+
+nav ul li a:hover {
+  color: #ffffff;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+}
+
+/* #endregion */
+
+/* #region MAIN */
+main h1 {
+  text-align: center;
+  margin: 2rem 0;
+}
+/* #endregion */
+
+/* #region PRODUKTER */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.card {
+  flex: 1 1 calc(33.333% - 2rem);
+  padding: 1rem;
+  text-align: center;
+  background-color: white;
+}
+
+.card img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.card button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #e3e3e3;
+  color: black;
+  border: none;
+  cursor: pointer;
+}
+
+/* #endregion */
+
+/* #region OM KRYB */
+.om-kryb-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.om-kryb-tekst {
+  flex: 1;
+  text-align: left;
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+.om-kryb-image {
+  flex: 1;
+  text-align: center;
+}
+
+.om-kryb-image img {
+  max-width: 100%;
+}
+/* #endregion */
+
+/* #region KONTAKT OS */
+.kontakt-os {
+}
+/* #endregion */
+
+/* #region FOOTER */
+footer {
+  background-color: #e3e3e3;
+  margin: 5rem;
+}
+
+footer .one {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  padding: 2rem;
+}
+
+footer .one img {
+  width: 40px;
+  height: auto;
+}
+footer .two {
+  display: flex;
+  justify-content: center;
+}
+footer .three .footer-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+/* #endregion */
